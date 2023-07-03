@@ -2,12 +2,12 @@
 
 <h2> Source Code from [Please cite these two references]: </h2>
 
-**Initial Publication [2011]**: GPU-based fast iterative reconstruction of fully 3-D PET sinograms
+**Initial Publication [2011]**: "GPU-based fast iterative reconstruction of fully 3-D PET sinograms"
 Joaquin L. Herraiz, Samuel España, Raúl Cabido, Antonio S. Montemayor, Manuel Desco, Juan Jose Vaquero, Jose Manuel Udias.
 IEEE Transactions on Nuclear Science, vol. 58, n. 5, october 2011. Pp. 2257-2263. ISSN: 0018-9499. DOI: 10.1109/TNS.2011.2158113
 http://ieeexplore.ieee.org/document/5929498/
 
-**Extended to Double and Triple Reconstruction [2023]**: Simultaneous quantitative imaging of two PET radiotracers via the detection of positron–electron annihilation and prompt gamma emissions - Edwin C. Pratt et al. - Nature Biomedical Engineering, 2023. DOI: 10.1038/s41551-023-01060-y
+**Extended to Doubles and Triples Reconstruction [2023]**: "Simultaneous quantitative imaging of two PET radiotracers via the detection of positron–electron annihilation and prompt gamma emissions" - Edwin C. Pratt et al. - Nature Biomedical Engineering, 2023. DOI: 10.1038/s41551-023-01060-y
 https://www.nature.com/articles/s41551-023-01060-y
 
 <h2> Compilation </h2>
