@@ -19,10 +19,10 @@ https://www.nature.com/articles/s41551-023-01060-y
 <h2> Execution </h2>
 GFIRST performs different types of reconstructions depending on the number of input parameters:
 
-1) **./GFIRST image_volume.raw**  ➡ Performs the forward projection of the volume creating a sinogram
-2) **./GFIRST sinogram.raw normalization.raw**  ➡ Performs the reconstruction of the sinogram with the appropriate normalization.
-3) **./GFIRST sinogramD.raw sinogramT.raw normalization.raw**  ➡ Performs the reconstruction of Doubles and Triple Coincidences based on sinograms.
-4) **./GFIRST sinogramD.raw sinogramT.raw normalization.raw VLORs.raw** ➡  Performs the reconstruction of Doubles (with sinograms) and Triples (with VLORs).
+1) **./GFIRST.x image_volume.raw**  ➡ Performs the forward projection of the volume creating a sinogram
+2) **./GFIRST.x sinogram.raw normalization.raw**  ➡ Performs the reconstruction of the sinogram with the appropriate normalization.
+3) **./GFIRST.x sinogramD.raw sinogramT.raw normalization.raw**  ➡ Performs the reconstruction of Doubles and Triple Coincidences based on sinograms.
+4) **./GFIRST.x sinogramD.raw sinogramT.raw normalization.raw VLORs.raw** ➡  Performs the reconstruction of Doubles (with sinograms) and Triples (with VLORs).
 
 <h2> Example </h2>
 A full example that reconstructs a mouse-like phantom data acquired with 124I and 89Zr with the preclinical Inveon PET/CT scanner can be found here:
