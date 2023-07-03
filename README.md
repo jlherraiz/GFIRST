@@ -7,7 +7,8 @@ Joaquin L. Herraiz, Samuel España, Raúl Cabido, Antonio S. Montemayor, Manuel 
 IEEE Transactions on Nuclear Science, vol. 58, n. 5, october 2011. Pp. 2257-2263. ISSN: 0018-9499. DOI: 10.1109/TNS.2011.2158113
 http://ieeexplore.ieee.org/document/5929498/
 
-**Extended to Double and Triple Reconstruction [2023]**:
+**Extended to Double and Triple Reconstruction [2023]**: Simultaneous quantitative imaging of two PET radiotracers via the detection of positron–electron annihilation and prompt gamma emissions - Edwin C. Pratt et al. - Nature Biomedical Engineering, 2023. DOI: 10.1038/s41551-023-01060-y
+https://www.nature.com/articles/s41551-023-01060-y
 
 <h2> Compilation </h2>
 
@@ -21,11 +22,11 @@ GFIRST performs different types of reconstructions depending on the number of in
 1) **./GFIRST image_volume.raw**  ➡ Performs the forward projection of the volume creating a sinogram
 2) **./GFIRST sinogram.raw normalization.raw**  ➡ Performs the reconstruction of the sinogram with the appropriate normalization.
 3) **./GFIRST sinogramD.raw sinogramT.raw normalization.raw**  ➡ Performs the reconstruction of Doubles and Triple Coincidences based on sinograms.
-4) **./GFIRST sinogramD.raw VLORs.raw normalization.raw 0** ➡  Performs the reconstruction of Doubles (with sinograms) and Triples (with VLORs).
+4) **./GFIRST sinogramD.raw sinogramT.raw normalization.raw VLORs.raw** ➡  Performs the reconstruction of Doubles (with sinograms) and Triples (with VLORs).
 
+<h2> Example </h2>
+A full example that reconstructs a mouse-like phantom data acquired with 124I and 89Zr with the preclinical Inveon PET/CT scanner can be found here:
 <br>
-Examples that reconstruct simulated data of the Inveon scanner are provided in the folder "examples"
+https://colab.research.google.com/drive/1jgY8D5tj-vwYC8S8imHVQ9OFyaMHrFhg?usp=sharing
 </br>
-
-<h2> List of publications that have used GFIRST </h2>
  * 
