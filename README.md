@@ -27,6 +27,5 @@ GFIRST performs different types of reconstructions depending on the number of in
 <h2> Example </h2>
 A full example that reconstructs a mouse-like phantom data acquired with 124I and 89Zr with the preclinical Inveon PET/CT scanner can be found here:
 <br>
-https://colab.research.google.com/drive/1jgY8D5tj-vwYC8S8imHVQ9OFyaMHrFhg?usp=sharing
+https://colab.research.google.com/drive/1utA6qi9AxpTAIByHb4iIFFe87kM2z2Mw?usp=sharing
 </br>
- * 
